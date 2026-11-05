@@ -1,0 +1,17 @@
+{
+  "name": "FRC Java WPILib Development",
+  "image": "://microsoft.com",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "wpilibsuite.vscode-wpilib"
+      ],
+      "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.compile.nullAnalysis.mode": "automatic"
+      }
+    }
+  },
+  "postCreateCommand": "./gradlew compileJava"
+}
